@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>need for speed type menu</title>
+<meta name="description" content="">
+<link href="" rel="stylesheet">
+<style>
+    head, body {
+        width: 100%;
+        height: 100%;
+        background: #666666;
+        background: -moz-linear-gradient(-45deg,  #666666 0%, #444444 25%, #222222 75%, #000000 100%);
+        background: -webkit-linear-gradient(-45deg,  #666666 0%,#444444 25%,#222222 75%,#000000 100%);
+        background: linear-gradient(135deg,  #666666 0%,#444444 25%,#222222 75%,#000000 100%);
+    }
+    section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 510px;
+        height: 400px;
+        perspective: 1000px;
+    }
+    nav {
+        width: 580px;
+    }
+    .trans {
+        transform: rotateY(30deg) rotateX(10deg);
+    }
+    nav a {
+        position: relative;
+        width: 180px;
+        height: 120px;
+        display: inline-block;
+        margin: 5px;
+        transition: all .3s;
+        box-shadow: 0 0 1px 3px rgba(0,0,0,.3);
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+        box-sizing: border-box;
+        -webkit-filter: blur(1px);
+        -moz-filter: blur(1px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1px);
+    }
+    nav a.small {
+        transform: scale(.7, .7);
+    }
+    nav a:hover {
+        z-index: 1;
+        transform: scale(1.2, 1.2);
+        background: rgba(0,0,0,.8);
+        -webkit-filter: blur(0);
+        -moz-filter: blur(0);
+        -o-filter: blur(0);
+        -ms-filter: blur(0);
+        filter: blur(0);
+    }
+    #resume {
+        color: #000;
+        background-image: url('resume.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #dev {
+        color: #000;
+        background-image: url('dev.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #tedshd {
+        background-image: url('tedshd.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #github {
+        color: #000;
+        background-image: url('github.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #blog {
+        background-image: url('blog.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #screen {
+        color: #fff;
+        background-image: url('screen.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #m2 {
+        color: #000;
+        background-image: url('m2.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #lego {
+        color: #fff;
+        background-image: url('lego.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #logo {
+        color: #000;
+        background-image: url('logo.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body>
+    <header></header>
+    <section>
+        <nav class="trans">
+            <a id="resume" class="small" href="http://tedshd.github.io/resume/">Resume</a>
+            <a id="dev" class="" href="http://tedshd.logdown.com/">Dev note</a>
+            <a id="github" class="small" href="https://github.com/tedshd">GitHub</a>
+            <a id="blog" class="" href="http://tysh310246.blogspot.tw/">Life blog</a>
+            <a id="tedshd" class="" href="http://tedshd.io">Tedshd</a>
+            <a id="logo" class="" href="https://goo.gl/photos/N4JKDpVxiAjcJGdH9">Logo Design</a>
+            <a id="screen" class="small" href="https://goo.gl/photos/JHJpzkReB1bh1SL87">螢幕攝</a>
+            <a id="m2" class="" href="https://goo.gl/photos/b4pm6D5yNsR6ssJk7">人不中二枉少年</a>
+            <a id="lego" class="small" href="https://goo.gl/photos/kUox3tzpovesQSf47">LEGO</a>
+        </nav>
+    </section>
+</body>
+</html>
